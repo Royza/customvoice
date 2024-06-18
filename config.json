@@ -2,7 +2,7 @@
   "name": "customvoice",
   "version": "1.0",
   "slug": "piper_custom",
-  "description": "Custom Voice Add-on to persist voices.json",
+  "description": "Custom Piper voice Add-on to persist voices.json",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "services",
   "boot": "auto",
@@ -13,10 +13,9 @@
   "host_dbus": false,
   "privileged": ["SYS_ADMIN"],
   "full_access": false,
-  "auto_uart": false,
-  "hassio_api": false,
-  "audio": false,
+  "uart": false,  // Replaced `auto_uart` with `uart`
   "options": {},
   "schema": {},
-  "image": "homeassistant/armv7-addon-example:latest"
+  "image": "homeassistant/amd64-addon-example:latest"  // Ensure this matches your architecture
 }
+
