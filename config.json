@@ -1,8 +1,8 @@
 {
-  "name": "Piper Custom Addon",
+  "name": "customvoice",
   "version": "1.0",
   "slug": "piper_custom",
-  "description": "Custom Piper Add-on to persist voices.json",
+  "description": "Custom Voice Add-on to persist voices.json",
   "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
   "startup": "services",
   "boot": "auto",
