@@ -1,0 +1,22 @@
+{
+  "name": "Piper Custom Addon",
+  "version": "1.0",
+  "slug": "piper_addon",
+  "description": "Custom Piper Add-on to persist voices.json",
+  "arch": ["armhf", "armv7", "aarch64", "amd64", "i386"],
+  "startup": "services",
+  "boot": "auto",
+  "init": false,
+  "homeassistant_api": false,
+  "host_network": false,
+  "host_ipc": false,
+  "host_dbus": false,
+  "privileged": ["SYS_ADMIN"],
+  "full_access": false,
+  "auto_uart": false,
+  "hassio_api": false,
+  "audio": false,
+  "options": {},
+  "schema": {},
+  "image": "homeassistant/armv7-addon-example:latest"
+}
